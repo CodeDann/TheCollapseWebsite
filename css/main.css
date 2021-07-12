@@ -1,0 +1,154 @@
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: Arial sans-serif;
+}
+body{
+  /*background-image: url("../img/background_image.png");*/
+  background-color: #D2D3D3;
+  margin-left: 200px;
+}
+h1{
+  /* fix header bar to go full across and backgorund to sidebar grey with font boady abckgorund liught gray*/
+  color: #2D3031;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 4px solid #2D3031;
+}
+h2{
+  color: #7D7F80;
+  margin-bottom: 0;
+  padding: 0 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+.captions{
+  color: #D2D3D3;
+}
+.sidebar{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2D3031;
+  border-right: 4px double #9615DB;
+}
+li{
+  list-style-type: none;
+}
+.sidebar, ul{
+  padding-top: 30px;
+}
+.sidebar, li{
+  margin-bottom: 40%;
+}
+.sidebar li:before {
+  content: '\21a0';
+  color: #9615DB;
+  margin-left: -20px;
+  margin-right: 10px;
+}
+#trends-list li:before{
+  content: '>';
+}
+
+a {
+  color: #9615DB;
+}
+a:hover {
+  color: #57e7ff;
+}
+img{
+  max-width: 50%;
+  max-height: 50%;
+  margin: 0;
+  padding: 0;
+}
+p{
+  text-align: center;
+}
+figure img {
+  display: initial;
+}
+figcaption{
+  margin-left: 0;
+  text-align: left;
+  max-width: 45%;
+  padding: 5px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+h3{
+  background-color: #2D3031;
+  color: #7D7F80;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+.drop-button{
+  background-color: #9615DB;
+  color: #2D3031;
+  padding: 25px;
+  cursor: grab;
+  position: absolute;
+  font-size: 25px;
+  border: none;
+  margin: 0;
+  width: 100%;
+}
+#drop-div{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+.drop-links{
+  display: none;
+  position: relative;
+  background-color: #2D3031;
+  min-width: 200px;
+  max-width: 100%;
+  color: #9615DB;
+  z-index: 11;
+  border-left: 4px double #9615DB;
+}
+.drop-links a{
+  color: #9615DB;
+  padding: 25px;
+  display: block;
+}
+.drop-links a:hover{
+  background-color: #7D7F80;
+}
+#drop-div:hover .drop-links{
+  display: block;
+}
+.para{
+  font-style: italic;
+  font-family: cursive;
+  font-size: 24px;
+}
+.returnbutton{
+  color: #2D3031;
+  text-align: center;
+}
+#video_container{
+  margin: 0;
+  width: 100%;
+}
+.shoutout{
+  color: #57e7ff;
+}
