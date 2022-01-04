@@ -7,4 +7,4 @@ Was a university project to create a website on any topic
 - Has HTML5 elements
 - Has Jquery Advanced element such as cookie storing and geo-location
 
-Not got a proper commit history because it was moved from a uni storage and just uploaded to my git
+Not got a proper commit history because it was moved from a uni storage and just uploaded to my github
